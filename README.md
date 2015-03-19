@@ -1,5 +1,7 @@
 # KMCGeigerCounter
 
+KMCGeigerCounter是一个iOS帧速计算器，像盖革计数器那样，当动画丢失一帧时它就记录一次。掉帧通常是不可见的，但是很难区分55fps和60fps之间的不同，而KMCGeigerCounter可以让你观测到掉落5帧的情况。
+
 KMCGeigerCounter is a framerate meter that clicks like a Geiger counter when your animation drops a frame.
 
 A Geiger counter detects invisible radiation particles and alerts you to what you can't see. Dropped frames aren't invisible, but it can be hard to tell the difference between 55 and 60 fps. KMCGeigerCounter makes those five dropped frames obvious.
